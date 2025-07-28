@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pdb
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts
+models/
+*.pth
+
+# Logs and outputs
+logs/
+*.log
+*.png
+*.csv
+*.out
+*.tfevents.*
+
+# Server (Node.js)
+server/node_modules/
+server/model/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp 
